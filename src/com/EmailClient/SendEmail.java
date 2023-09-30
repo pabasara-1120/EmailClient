@@ -34,7 +34,7 @@ public class SendEmail implements Serializable {
     public void sendMessage(String mailBody) {
 
         final String username = "mail4javamail@gmail.com";
-        final String password = "gxkcaeolnhlxafyn";
+        final String password = "";
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
